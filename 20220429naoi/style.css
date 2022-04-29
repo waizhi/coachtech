@@ -26,15 +26,15 @@
   font-size: 15px;
   font-weight: bold;
 } 
-.image{
+.image {
   position: relative;
 }
-.image_img img{
-  width:50%;
+.image_img img {
+  width: 50%;
   display: block;
-  position: absolute;
-  top: 60px;
-  right:10px;
+  position: fixed;
+  top: 250px;
+  right: -10px;
   z-index: 10;
 }
 .border_design{
@@ -44,7 +44,7 @@
   position: absolute;
   z-index: 5;
   top: 500px;
-  left: 10px;
+  left: -10px;
 }
 .text{
   color: black;
@@ -52,5 +52,5 @@
   font-weight:599;
   position: absolute;
   margin-top: 360px;
-  left: 10px;
+  left: -10px;
 }
