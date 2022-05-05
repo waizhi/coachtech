@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #696969;
+  margin-top: -150px;
+}
+.header-ttl{
+  width: 10%;
+  transform: scale(0.1);
+  margin-left:-50px;
+}
+.header-nav-list{
+  display: flex;
+  font-weight: bold;
+  justify-content:right;
+}
+.nav-item:not(:last-child){
+  margin-right: 20px;
+}
+.nav-item:last-child{
+  margin-right: 30px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1000px;
+  background: whitesmoke;
+  height: 300px;
+}
+img {
+  width: 300px;
+  height: 150px;
+}
+.wrapper-ttl {
+  font-family: 'Architects Daughter',
+    cursive;
+  color: magenta;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.ブログ {
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.card {
+  width: 20%;
+  border: 1px solid #e9eaea;
+  border-radius:10px;
+}
+.text-box {
+  padding: 5px 10px;
+  background: white;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.blog-img {
+  padding: 10px 0;
+  text-align: center;
+}
+.blog-content-ttl {
+  font-size: 15px;
+  color: #696969;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.blog-content-tag {
+  font-size: 12px;
+  display: inline-block;
+}
+.date {
+  text-align: left;
+}
+.blog-content-tag-item {
+  display: inline-block;
+  margin-left: 200px;
+}
+.company{
+  width: 50%;
+  border-collapse: collapse;
+  text-align: left;
+  margin:30px 500px;
+}
+.company-ttl {
+  font-family: 'Architects Daughter',
+    cursive;
+  color: magenta;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.会社概要{
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  color: #696969;
+  padding: 15px;
+ } 
+table th {
+  font-weight: bold;
+  background-color: whitesmoke;
+  }
+table td{
+  padding-right: 200px;
+} 
+.contact {
+  position: relative;
+  text-align: center;
+  color: #696969;
+  padding-bottom: 10px;
+}
+.v_line_fix {
+  position: absolute;
+  margin-left: 600px;
+  width: 5px;
+  height: 20px;
+  background-color: magenta;
+}
+.footer{
+  background-color: whitesmoke;
+  height: 40px;
+  color:#696969;
+  text-align: center;
+  padding-top: 20px;
+}
+.copyright{
+  font-size: 15px;
+}  
