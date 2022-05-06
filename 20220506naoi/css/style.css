@@ -28,29 +28,30 @@ a{
 .nav-item:last-child{
   margin-right: 30px;
 }
-.wrapper {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  width: 100%;
-  margin-top: 1000px;
-  padding: 100px 0;
-  background: whitesmoke;
-  height: 340px;
-}
 .wrapper-ttl {
-  position: absolute;
+  margin-top: -70px;
+  margin-left: 300px;
   font-family: 'Architects Daughter',
     cursive;
   color: magenta;
   font-size: 15px;
   font-weight: bold;
 }
-.ブログ {
+.wrapper-ttl-jp {
+  margin-top: -50px;
+  margin-left: 200px;
   color: #696969;
   font-size: 20px;
   font-weight: bold;
-  position: absolute;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1000px;
+  padding: 100px 0;
+  background: whitesmoke;
+  height: 340px;
 }
 img {
   width: 300px;
@@ -63,9 +64,16 @@ img {
 }
 .blog-img {
   text-align: center;
+  position: relative;
 }
 .border-radius{
   border-radius: 10px 10px 0 0;
+}
+.blog-logo{
+  position: absolute;
+  color: white;
+  background: magenta;
+  border-radius: 10px 0 0 0;
 }
 .blog-content-ttl {
   font-size: 15px;
@@ -89,7 +97,7 @@ img {
   padding-left: 100px;
 }
 .view_btn{
-  position: absolute;
+  margin: 400px 150px;
   width: 150px;
   padding: 10px 20px;
   color: magenta;
@@ -98,8 +106,6 @@ img {
   border: 1px solid magenta;
   text-align: center;
   display:inline-block;
-  right:500px;
-  bottom: 20px;
 }
 .company{
   width: 50%;
@@ -115,7 +121,7 @@ img {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.会社概要{
+.company-ttl-jp{
   color: #696969;
   font-size: 20px;
   font-weight: bold;
@@ -126,7 +132,7 @@ table td {
   border: 1px solid #ccc;
   color: #696969;
   padding: 15px;
- } 
+} 
 table th {
   font-weight: bold;
   background-color: whitesmoke;
