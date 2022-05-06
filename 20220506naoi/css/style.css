@@ -10,12 +10,12 @@ a{
   justify-content: space-between;
   align-items: center;
   color: #696969;
-  margin-top: -150px;
+  margin-top:0px;
 }
 .header-ttl{
-  width: 10%;
-  transform: scale(0.1);
-  margin-left:-50px;
+  width: 20px;
+  transform: scale(0.3);
+  margin-left:0;
 }
 .header-nav-list{
   display: flex;
@@ -31,60 +31,75 @@ a{
 .wrapper {
   display: flex;
   justify-content: space-around;
+  position: relative;
   width: 100%;
   margin-top: 1000px;
+  padding: 100px 0;
   background: whitesmoke;
-  height: 300px;
-}
-img {
-  width: 300px;
-  height: 150px;
+  height: 340px;
 }
 .wrapper-ttl {
+  position: absolute;
   font-family: 'Architects Daughter',
     cursive;
   color: magenta;
   font-size: 15px;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 .ブログ {
   color: #696969;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 18px;
+  position: absolute;
 }
-.card {
-  width: 20%;
-  border: 1px solid #e9eaea;
-  border-radius:10px;
+img {
+  width: 300px;
 }
 .text-box {
   padding: 5px 10px;
   background: white;
   margin-bottom: 15px;
-  display: inline-block;
+  border-radius: 0 0 10px 10px;
 }
 .blog-img {
-  padding: 10px 0;
   text-align: center;
+}
+.border-radius{
+  border-radius: 10px 10px 0 0;
 }
 .blog-content-ttl {
   font-size: 15px;
   color: #696969;
   margin-bottom: 30px;
-  font-weight: 300;
+  font-weight: 700;
+  padding: 10px 5px;
+  line-height: 30px;
 }
 .blog-content-tag {
   font-size: 12px;
   display: inline-block;
+  color: #696969;
+  justify-content: space-between;
 }
 .date {
-  text-align: left;
+  display: inline-block;
 }
 .blog-content-tag-item {
   display: inline-block;
-  margin-left: 200px;
+  padding-left: 100px;
+}
+.view_btn{
+  position: absolute;
+  width: 150px;
+  padding: 10px 20px;
+  color: magenta;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid magenta;
+  text-align: center;
+  display:inline-block;
+  right:500px;
+  bottom: 20px;
 }
 .company{
   width: 50%;
