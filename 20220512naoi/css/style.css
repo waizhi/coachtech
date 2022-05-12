@@ -4,6 +4,7 @@ body {
 a{
   text-decoration: none;
   color:inherit;
+  display:inline-block;
 }
 .header{
   display: flex;
@@ -13,8 +14,7 @@ a{
   margin-top:0px;
 }
 .header-ttl{
-  width: 20px;
-  transform: scale(0.3);
+  width: 0.0005px;
   margin-left:0;
 }
 .header-nav-list{
@@ -271,19 +271,18 @@ a{
   color: #C71585;
   font-size: 15px;
   margin-bottom: 10px;
-  transform: translateX(205px);
+  transform: translateX(70px);
 }
 .wrapper-ttl-jp {
   color: #696969;
   font-size: 20px;
   font-weight: bold;
-  transform: translateX(205px);
+  transform: translateX(70px);
 }
 .card_wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-left: 200px;
+  margin: 10px 50px 0 50px;
   }
 .card {
   margin: 10px;
@@ -368,6 +367,10 @@ a{
   font-weight: bold;
   margin-bottom: 18px;
 }
+.company_table{
+  width: 100%;
+  margin: 0px auto;
+}
 table th,
 table td {
   border: 1px solid #ccc;
@@ -381,14 +384,14 @@ table th {
 table td{
   padding-right: 200px;
 }
-.information_img{
-  width: 100%;
+.information_inner{
+  width: 100vw;
   display: flex;
   margin-bottom: 50px;
   }
 .recruitment-img{
   position: relative;
-  width: 1000px;
+  width: 50%;
   display: block;
 }
 .recruitment{
@@ -403,8 +406,8 @@ table td{
 .interview-img{
   position: relative;
   display:block;
-  width: 100%;
-}
+  width: 50%;
+ }
 .interview{ 
   position: absolute;
   top: 50%;
