@@ -4,18 +4,17 @@ body {
 a{
   text-decoration: none;
   color:inherit;
-  display:inline-block;
 }
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #696969;
-  margin-top:0px;
+  margin:20px 0 20px 0;
 }
-.header-ttl{
-  width: 0.0005px;
-  margin-left:0;
+.header-ttl img{
+  width: 10%;
+  transform: translateX(2px);
 }
 .header-nav-list{
   display: flex;
@@ -384,38 +383,30 @@ table th {
 table td{
   padding-right: 200px;
 }
-.information_inner{
-  width: 100vw;
-  display: flex;
+.information__inner{
+  width: 100%;
+  display:flex;
   margin-bottom: 50px;
-  }
-.recruitment-img{
-  position: relative;
-  width: 50%;
-  display: block;
 }
-.recruitment{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.recruitment {
+  background-image: url(../img/recruit.png);
+  background-size: cover;
+  width: 50%;
   color: white;
   font-size: 15px;
   font-weight: 300;
+  text-align: center;
+  padding: 200px;
 }
-.interview-img{
-  position: relative;
-  display:block;
+.interview{
+  background-image: url(../img/interview.png);
+  background-size: cover;
   width: 50%;
- }
-.interview{ 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-250px);
   color: white;
   font-size: 15px;
   font-weight: 300;
+  text-align: center;
+  padding: 200px;
 }
 .contact {
   width: 100%;
