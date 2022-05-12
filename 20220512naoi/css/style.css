@@ -1,0 +1,469 @@
+body {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #696969;
+  margin-top:0px;
+}
+.header-ttl{
+  width: 20px;
+  transform: scale(0.3);
+  margin-left:0;
+}
+.header-nav-list{
+  display: flex;
+  font-weight: bold;
+  justify-content:right;
+}
+.nav-item:not(:last-child){
+  margin-right: 20px;
+}
+.nav-item:last-child{
+  margin-right: 30px;
+}
+.fv_sec{
+  position: relative;
+  margin-bottom: 50px;
+}
+.fv_sec_img{
+  margin: 0 0 0 auto;
+  display: block;
+  width: 70%;
+}
+.fv_message{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  line-height:100px;
+  margin-bottom: 80px;
+  font-size: 60px;
+  font-family: 'Architects Daughter',
+    cursive;
+  color: #C71585;
+  }
+  .aqua{
+    color: #008B8B;
+  }
+.fv_meta_message{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 24px;
+  font-weight: 1000;
+  font-family: 'Architects Daughter',
+    cursive;
+  color: #C71585;
+}
+.aqua_jp{
+  color: #008B8B;
+}
+.fv_meta_message_eng{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  line-height: 30px;
+  font-size: 15.5px;
+  font-weight: bold;
+  color: #696969;
+}
+.news{
+  width: 70%;
+  margin: 0 0 0 auto;
+}
+.news-inner{
+  width: 60%;
+  border-bottom: 2px solid #ccc;
+}
+.news-ttl{
+  font-family: 'Architects Daughter',
+  cursive;
+  color: #C71585;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.news-ttl-jp{
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.news-item{
+  width: 60%;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+.news-item-list{
+  color: #696969;
+  font-size: 15px;
+}
+.news-item-label{
+  width: 110px;
+  background: #C71585;
+  color: white;
+  border-radius: 30px;
+  margin: 0 30px 0 30px;
+  padding: 7px 0;
+  text-align: center;
+  display: inline-block;
+}
+.news-inner-bottom{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 60%;
+  border-bottom: 2px solid #ccc;
+}
+.about{
+  width: 100%;
+  background: whitesmoke;
+  box-sizing: content-box;
+  padding-top: 40px;
+}
+.about-inner{
+  width: 70%;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+.About{
+  font-family: 'Architects Daughter',
+  cursive;
+  color: #C71585;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.about-ttl{
+  color: #696969;
+  font-size: 20px;
+}
+.wrap-about{
+  display: flex;
+  justify-content:space-evenly;
+  margin: 20px 500px;
+}  
+.information{
+  color: #696969;
+  font-size: 13px;
+  font-weight: bolder;
+  line-height: 20px;
+  display: inline-block;
+  margin-left: -150px;
+}
+.information-second{
+  margin-top: 20px;
+  display: block;
+}
+.about-img{
+  width: 50%;
+  margin-bottom: 20px;
+  margin-right: -220px;
+}
+.about-img img {
+  width: 100%;
+}
+.service{
+  width:50%;
+  margin: 70px 500px;
+  display: grid;
+  grid-template-rows: 70px 170px 170px;
+  grid-template-columns:2fr 2fr;
+}
+.service-inner{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: left;
+}
+.service-ttl{
+  font-family: 'Architects Daughter',
+  cursive;
+  color: #C71585;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.service-ttl-jp{
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+} 
+.box1{
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-color: #C71585;
+  color: white;
+  position: relative;
+  }
+.service_first_img_1{
+  width: 30%;
+  margin: 20px 125px;
+  display: block;
+}
+.service-content_1{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.sampletext_1{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  line-height: 25px;
+  font-size: 13px;
+  display: inline;
+}
+.box2{
+  grid-column:2/3;
+  grid-row: 2/3;
+  background-color: #cc4f8b;
+  color: white;
+  position: relative;
+}
+.service_first_img_2{
+  width: 30%;
+  margin: 25px 5px;
+  display: block;
+}
+.service-content_2{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.sampletext_2{
+  position: absolute;
+  top: 37%;
+  left: 35%;
+  font-size: 13px;
+  line-height: 25px;
+  display: inline;
+}
+.box3{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #be80aa;
+  color: white;
+  position: relative;
+}
+.service_first_img_3{
+  position: absolute;
+  width: 30%;
+  margin: 25px 5px;
+  display: block;
+}
+.blog {
+  width: 100%;
+  padding: 10px 0;
+  background: whitesmoke;
+  box-sizing: border-box;
+}
+.content_inner {
+  width: 60%;
+  margin: 10px auto;
+}
+.wrapper-ttl {
+  font-family: 'Architects Daughter',
+    cursive;
+  color: #C71585;
+  font-size: 15px;
+  margin-bottom: 10px;
+  transform: translateX(205px);
+}
+.wrapper-ttl-jp {
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translateX(205px);
+}
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 200px;
+  }
+.card {
+  margin: 10px;
+  position: relative;
+  z-index: 0;
+}
+.card::before {
+  content: "Blog";
+  position: absolute;
+  width: auto;
+  padding: 10px;
+  background:#C71585;
+  color: white;
+  z-index: 10;
+  border-top-left-radius: 8px;
+}
+.text-box {
+  padding: 5px 10px;
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 0 0 10px 10px;
+}
+.blog-img img{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.border-radius{
+  border-radius: 10px 10px 0 0;
+}
+.blog-content-ttl {
+  font-size: 15px;
+  color: #696969;
+  margin-bottom: 30px;
+  font-weight: 700;
+  padding: 10px 5px;
+  line-height: 30px;
+}
+.blog-content-tag {
+  font-size: 12px;
+  display: inline-block;
+  color: #696969;
+  justify-content: space-between;
+}
+.date {
+  display: inline-block;
+}
+.blog-content-tag-item {
+  display: inline-block;
+  padding-left: 100px;
+}
+.button__wrapper {
+  text-align: center;
+  margin-top: 3px;
+}
+.button__wrapper .view_btn {
+  width: 150px;
+  padding: 10px 20px;
+  color: #C71585;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid #C71585;
+  text-align: center;
+  display: inline-block;
+}
+.company{
+  width: 50%;
+  border-collapse: collapse;
+  text-align: left;
+  margin:50px 500px;
+}
+.company-ttl {
+  font-family: 'Architects Daughter',
+    cursive;
+  color: #C71585;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.company-ttl-jp{
+  color: #696969;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  color: #696969;
+  padding: 15px;
+} 
+table th {
+  font-weight: bold;
+  background-color: whitesmoke;
+  }
+table td{
+  padding-right: 200px;
+}
+.information_img{
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  }
+.recruitment-img{
+  position: relative;
+  width: 1000px;
+  display: block;
+}
+.recruitment{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+.interview-img{
+  position: relative;
+  display:block;
+  width: 100%;
+}
+.interview{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250px);
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+.contact {
+  width: 100%;
+  text-align: center;
+  color: #696969;
+  padding-bottom: 20px;
+  position: relative;
+}
+.contact::after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  bottom: 20%;
+  background: #C71585;
+  height: 15px;
+  width: 2px;
+  transform: translateY(10px);
+}
+.contact-btn{
+  position: relative;
+  width: 200px;
+  padding: 10px 0;
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  background: linear-gradient(90deg,#ff5800,#8b00be);
+  text-align: center;
+  bottom: 15%;
+  margin: 10px auto 50px;
+  display: block;
+  box-shadow: 0 5px 0 #8B0000;
+}
+.contact-btn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-10px);
+  }
+.footer{
+  background-color: whitesmoke;
+  height: 40px;
+  color:#696969;
+  text-align: center;
+  padding-top: 20px;
+}
+.copyright{
+  font-size: 15px;
+}  
