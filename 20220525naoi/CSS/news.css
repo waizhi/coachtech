@@ -210,7 +210,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+  font-size: 11px;
+  line-height: 20px;
 }
 .footer-nav-list {
   display: flex;
@@ -231,6 +232,7 @@ a {
   .footer-copyright {
     margin: 0 auto;
   }
+  
   .footer-nav-item {
     text-align: center;
     margin-top: 10px;
